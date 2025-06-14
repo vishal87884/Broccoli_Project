@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+/* index.css */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+  margin-right: 10px; /* Optional */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1; /* gray-300 */
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f8fafc; /* light background */
+}
+
+/* Optional: Add padding to avoid text sticking to scrollbar */
+
+.border-color{
+    border-color: #e5eaee;
+}
+.icon-bg-color{
+    background-color: #F7F5EB;
+}
+
+.text-green-color{
+  color: #80B500;
+}
